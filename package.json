@@ -1,0 +1,30 @@
+{
+  "name": "koa_seed",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon --harmony_destructuring --harmony app/index.js",
+    "test": "mocha"
+  },
+  "dependencies": {
+    "dotenv-safe": "^2.3.3",
+    "fs-promise": "^0.5.0",
+    "koa": "^1.2.4",
+    "koa-bodyparser": "^2.2.0",
+    "koa-cors": "0.0.16",
+    "koa-router": "^5.4.0",
+    "lodash": "^4.16.6",
+    "mysql": "^2.11.1",
+    "sequelize": "^3.24.6"
+  },
+  "devDependencies": {
+    "eslint": "^3.9.1",
+    "eslint-config-airbnb": "^12.0.0",
+    "eslint-plugin-import": "^2.0.1",
+    "mocha": "^3.1.2",
+    "should": "^11.1.1"
+  },
+  "author": "kwoktung <onlyif2009@gmail.com>",
+  "license": "MIT"
+}

@@ -1,0 +1,20 @@
+{
+  "extends":"airbnb/recommend",
+  "parserOptions": {
+    "ecmaVersion": 6,
+    "sourceType": "script"
+  },
+  "env":{
+    "node":true,
+    "mocha": true
+  },
+  "globals":{
+    "localRequire": true,
+    "__basename": true
+  },
+  rules:{
+    comma-dangle: ["error", "never"],
+    func-names: ["error", "never"],
+    no-param-reassign: ["error", { "props": false }]
+  }
+}

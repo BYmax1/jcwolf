@@ -1,0 +1,23 @@
+{
+  "root": true,
+  "extends":"airbnb/base",
+  "parserOptions": {
+    "ecmaVersion": 6,
+    "sourceType": "script",
+    "ecmaFeatures": {
+        "jsx": true
+    }
+  },
+  "env":{
+    "node":true
+  },
+  "globals":{
+    "localRequire": true,
+    "__basename": true
+  },
+  rules:{
+    comma-dangle: ["error", "never"],
+    func-names: ["error", "never"],
+    no-param-reassign: ["error", { "props": false }]
+  }
+}
